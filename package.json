@@ -13,7 +13,7 @@
     "wowaddon-cli": "./bin/index.js"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "yargs": "^15.3.1"
   }
 }

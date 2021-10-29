@@ -14,11 +14,14 @@ const argv = require('yargs')
 
 const { addOnId, fileName, searchTerm, full } = argv;
 
-if (addOnId && fileName)
+if (addOnId && fileName) {
     displayDownloadLink(fileName, addOnId);
+}
 
-if (full && searchTerm)
+if (full && searchTerm) {
     displayLatestFileInfo(searchTerm);
+}
 
-if (searchTerm && !full)
+if (searchTerm && !full) {
     findAddonByName(searchTerm);
+}
